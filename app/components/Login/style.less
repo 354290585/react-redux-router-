@@ -1,0 +1,112 @@
+#login-container {
+    width: 300px;
+    margin: 16rem auto 0 auto;
+    .input-container {
+        background-color: #fff;
+        border: 1px solid #fff;
+        padding: 5px 10px;
+        border-radius: 5px;
+        overflow: hidden;
+        border-radius: 15px;
+        input {
+            font-size: 16px;
+            display: block;
+            height: 26px;
+            padding-left: 5px;
+            outline: none;
+            border: none;
+            width: 90%;
+        }
+        i {
+            color: rgb(233, 32, 61);
+            font-size: 2.2rem;
+            float: left;
+            margin-top: 5px;
+        }
+    }
+    .phone-container {
+        input {
+            margin-left: 20px;
+        }
+    }
+    .password-container {
+        margin-top: 10px;
+        position: relative;
+        input {
+            margin-left: 22px;
+            margin-right: 80px;
+            width: 60%;
+        }
+        .yanzheng {
+            font-size: 3.1rem;
+            margin-left: -10px;
+            position: absolute;
+            left: 15px;
+            margin-top: -0.5px;
+        }
+        button {
+            width: 80px;
+            height: 100%;
+            font-size: 1.5rem;
+            color: rgb(233, 32, 61);
+            border: 0;
+            background-color: #fff;
+            text-align: center;
+            float: right;
+            line-height: 32px;
+            outline: none;
+        }
+    }
+    .btn-login {
+        width: 98%;
+        text-align: center;
+        background-color: #f3394e;
+        color: #fff;
+        border: 1px solid rgb(233, 32, 61);
+        border-radius: 5px;
+        font-size: 16px;
+        margin-top: 10px;
+        padding: 5px 0;
+        outline: none;
+    }
+}
+
+.err {
+    width: 160px;
+    height: 40px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 40px;
+    color: red;
+    font-weight: 600;
+    i {
+        padding-left: 10px;
+    }
+    span {
+        padding-left: 5px;
+    }
+}
+
+@media only screen and (max-width:330px) and (min-width:300px) {
+    #login-container{
+        width:251px;
+        margin: 6rem auto 0 auto;
+    }
+}
+@media only screen and (max-width:1024px) and (min-width:750px) {
+       #login-container{
+        width:400px;
+    
+    }
+    #login-container .password-container button{
+        width:140px;
+    }
+    #login-container .password-container .yanzheng{
+        top:-3px;
+        left:13px;
+    }
+    #login-container .password-container input{
+        margin-left: 36px;
+    }
+}
+

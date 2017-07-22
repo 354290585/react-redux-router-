@@ -1,0 +1,38 @@
+@theme: #f3394e;
+@diminish: 2.1;
+.header {
+    background-color: @theme;
+    height: 10rem/@diminish;
+    width: 100%;
+    .callBack {
+        float: left;
+        line-height: 10rem/@diminish;
+        padding-left: 1rem;
+        font-size: 2.2rem;
+        color: #fff
+    }
+    .search-header {
+        background-color: @theme;
+        height: 10rem/@diminish;
+        width: 100%;
+        padding: 1.1rem 3rem 0 4.2rem;
+        .searchContent {
+            background-color: #fff;
+            border-radius: 15px;
+            overflow: hidden;
+            padding: 0.5rem;
+            i {
+                color: #ccc !important;
+            }
+            input {
+                font-size: 1.4rem !important;
+                font-weight: normal;
+                border: none;
+                outline: none;
+                border-radius: 15px;
+                padding-left: 0.5rem;
+                width: 90%;
+            }
+        }
+    }
+}

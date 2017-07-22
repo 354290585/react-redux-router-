@@ -1,0 +1,88 @@
+@theme: #f3394e;
+.likelist {
+    width: 100%;
+    background-color: #fff;
+    h2 {
+        font-size: 1.6rem;
+        font-weight: 700;
+        padding: 10px 15px;
+       
+        background-color: #fff;
+    }
+    .list-content {
+        width: 94%;
+        margin: 0 auto;
+        .item {
+            width: 100%;
+            padding-bottom: 0.8rem;
+            border-bottom: 1px #eee solid;
+            .item-padding {
+                padding: 0.8rem 0;
+                .item-img {
+                    width: 38%;
+                    height: 8rem;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .item-content {
+                    width: 62%;
+                    padding-left:1.4rem;
+                    .item-title {
+                        margin-top:0.4rem;
+                        h3 {
+                            font-size: 1.7rem;
+                            line-height: 1;
+                            color: #333;
+                        }
+                        span {
+                            font-size: 1.3rem;
+                            line-height: 1.6rem;
+                            color: #999;
+                        }
+                    }
+                    .item-subtitle {
+                        margin-top:1rem;
+                        font-size: 1.4rem;
+                        color: #666;
+                        line-height: 1.5;
+                        white-space: nowrap;
+                        overflow: hidden;
+                        text-overflow:ellipsis;
+                    }
+                    .item-price {
+                        margin-top:1.1rem;
+                        font-size: 1.8rem;
+                        line-height: 1;
+                        font-weight: 900;
+                        color: rgb(233, 32, 61);
+                        .number {
+                            font-size: 1.3rem;
+                            line-height: 18px;
+                            color: #999;
+                            font-weight: normal;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width:300px) and(max-width:388px){
+     .likelist .list-content .item .item-padding .item-img{
+         height: 7rem;
+     }
+     .item{
+         padding-bottom: 0.5rem !important
+     }
+     .likelist .list-content .item .item-padding .item-content .item-title{
+         margin-top:0.3rem;
+     }
+     .item-subtitle{
+         margin-top:0.5rem !important
+     }
+     .item-price{
+         margin-top:0.7rem !important
+     }
+}

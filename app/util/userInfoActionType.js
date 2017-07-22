@@ -1,0 +1,2 @@
+export const USERINFO_UPDATE = 'USERINFO_UPDATE';
+export const CATEGORY = 'CATEGORY';
